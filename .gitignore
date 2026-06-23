@@ -13,3 +13,11 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+
+# Per-prototype build artifacts (each subfolder has its own .gitignore too)
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/.vite/
+**/*.tsbuildinfo
+**/*.local
