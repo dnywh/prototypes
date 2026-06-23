@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / tooling
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Env secrets (if any prototype adds them later)
+.env
+.env.*
+!.env.example
